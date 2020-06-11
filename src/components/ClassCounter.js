@@ -10,8 +10,6 @@ class ClassCounter extends Component {
     this.incrementCount = this.incrementCount.bind(this);
     }
 
-    
-
    incrementCount() {
     this.setState((prevState) => ({
       count: prevState.count + 1
