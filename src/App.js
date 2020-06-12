@@ -22,6 +22,7 @@ import ComponentC from './components/useReducerWithContext/ComponentC';
 import ComponentA from './components/useReducerWithContext/ComponentA';
 import ComponentB from './components/useReducerWithContext/ComponentB';
 import DataFetchingOne from './components/useReducer/DataFetchingOne';
+import DataFetchingTwo from './components/useReducer/DataFetchingTwo';
 
 
 // Belongs to useContext
@@ -94,7 +95,8 @@ function App() {
       </CountContext.Provider> */}
       return(
       <div className = "App">
-        <DataFetchingOne />
+        {/* <DataFetchingOne /> */}
+        <DataFetchingTwo />
       </div>
 
   )
